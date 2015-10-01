@@ -27,7 +27,20 @@ public class ReverseArray {
 		System.out.println("}");
 		// ∧ ∧ ∧ ∧ ∧ ∧ ∧ LEAVE THE CODE ABOVE THIS LINE ALONE!!! ∧ ∧ ∧ ∧ ∧ ∧ ∧ 
 		
-		// YOUR CODE TO REVERSE THE CONTENTS OF THE numbers ARRAY GOES HERE
+		int[] convert = new int[10];
+		
+		for(int r = 0; r < numbers.length; r++){
+
+			convert[9 - r] = numbers[r];
+			
+		}
+		
+		for(int r = 0; r < numbers.length; r++){
+			
+			System.out.println(convert[r]);
+	
+		}
+			
 		
 		// ∨ ∨ ∨ ∨ ∨ ∨ ∨ LEAVE THE CODE BELOW THIS LINE ALONE!!! ∨ ∨ ∨ ∨ ∨ ∨ ∨ 
 		System.out.print("After reversal: {");
