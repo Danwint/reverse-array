@@ -33,11 +33,15 @@ public class ReverseArray {
 
 			convert[9 - r] = numbers[r];
 			
-		}
+			}
 		
 		for(int r = 0; r < numbers.length; r++){
 			
-			System.out.println(convert[r]);
+			numbers[r] = convert[r];
+			
+			
+			
+			//System.out.println(convert[r]);
 	
 		}
 			
